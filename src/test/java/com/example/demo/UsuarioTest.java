@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import com.example.demo.model.Usuario;
 
 
-class TestUsuario {
+class UsuarioTest {
 
 	private static Usuario user;
 	 @BeforeAll
