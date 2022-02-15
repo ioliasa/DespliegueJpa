@@ -17,7 +17,7 @@ class UsuarioTest {
 	    }
 
 	@Test
-	void testGetTitulo() {
+	void testGetNombre() {
 		user.setNombre("Nacho");
 		assertTrue(user.getNombre()=="Nacho");
 	}

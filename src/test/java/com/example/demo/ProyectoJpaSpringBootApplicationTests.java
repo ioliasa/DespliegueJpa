@@ -7,7 +7,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ProyectoJpaSpringBootApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void testGetDireccion() {
+		user.setDireccion("Calle de la Fresa");
+		assertTrue(user.getDireccion()=="Calle de la Fresa");
 	}
 
 }
