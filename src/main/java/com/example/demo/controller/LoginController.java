@@ -78,7 +78,7 @@ public class LoginController {
 		return "errorLogin";
 	}
 
-	@GetMapping({"/forbidden"})
+	@GetMapping({"forbidden"})
 	public String forbidden() {		
 		return "forbidden";
 	}
